@@ -1,7 +1,7 @@
 body {
     background: #fbfbfb;
     margin: 0;
-    padding: 10px;
+    padding: 1px;
 }
 
 .wrapper header.header::before {
