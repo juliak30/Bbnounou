@@ -8,6 +8,7 @@ body {
     width: 95%;
     max-width: 1000px;
     margin: 0 auto;
+
   }
   
   header {
@@ -154,6 +155,16 @@ body {
       display: none;
     }
   }
+
+  iframe {
+    position: fixed;
+    background: #000;
+    border: none;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    width: 100%;
+    
+}
   /* NAVBAR */
 
 .wrapper header.header::before {
