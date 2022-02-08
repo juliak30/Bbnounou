@@ -25,7 +25,6 @@ body {
   
   .logo {
     float: left;
-    font-size: 1rem;
     margin: 0;      
     width: 150px;
     padding: 50px;
@@ -40,7 +39,8 @@ body {
     background: #464655;
     height: 0;
     overflow: hidden;
-    padding: 50px;
+    padding: 60px;
+    font-family: "Raleway", Times, serif;
   }
   
   .main-nav-open {
@@ -154,19 +154,17 @@ body {
       display: none;
     }
   }
-  
-<!-- NAVBAR -->
+  /* NAVBAR */
 
 .wrapper header.header::before {
-    
-        content: '';
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            background-image: linear-gradient(to bottom right,#000000,#000000);
-            opacity: 0.71; 
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-image: linear-gradient(to bottom right,#000000,#000000);
+opacity: 0.6; 
       
 }
 .wrapper header.header {
@@ -176,7 +174,6 @@ body {
     overflow: hidden;
     padding-top: 20px;
     position: relative;
-    /* filter:brightness(30%) grayscale(1); */
 }
 
 .wrapper header.header .blue {
