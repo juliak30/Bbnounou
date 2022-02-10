@@ -40,4 +40,16 @@
     }
 
 
+    .wrapper footer.footer .footer-icon h2 {
+        margin-top: 0px;
+        text-align: center;
     }
+
+
+    .wrapper footer.footer {
+        height: 550px;
+    }
+
+
+    }
+
