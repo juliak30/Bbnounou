@@ -3,12 +3,11 @@ body {
     margin: 0;
 }
 
-<!-- NAVBAR -->
-.nav {
+/* <!-- NAVBAR --> */
+/* .nav {
     width: 95%;
     max-width: 1000px;
     margin: 0 auto;
-
   }
   
   header {
@@ -156,15 +155,17 @@ body {
     }
   }
 
-  iframe {
+  .navbar {
     position: fixed;
-    background: #000;
     border: none;
-    top: 0; right: 0;
-    bottom: 0; left: 0;
+    top: 0; 
+    right: 0;
+    bottom: 0; 
+    left: 0;
     width: 100%;
+   
     
-}
+} */
   /* NAVBAR */
 
 .wrapper header.header::before {
@@ -275,7 +276,7 @@ opacity: 0.6;
     color: #fff;
 }
 
-.wrapper header.header ul.nav.navbar-nav li a {
+.wrapper header.header ul .nav .navbar-nav li a {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -283,11 +284,11 @@ opacity: 0.6;
     text-transform: uppercase;
 }
 
-.wrapper header.header ul.nav.navbar-nav {
+.wrapper header.header ul .nav .navbar-nav {
     float: right;
 }
 
-.wrapper header.header ul.nav.navbar-nav li :hover {
+.wrapper header.header ul .nav .navbar-nav li :hover {
     background: transparent
 }
 
