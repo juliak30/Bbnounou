@@ -1,0 +1,43 @@
+@media (min-width: 375px) and (max-width: 812px) {
+        
+    .wrapper header.header .header-text h1 {
+        width:300px;
+        padding: 3px;
+        margin: 40px;
+        font-size: 2.5em;  
+        word-wrap: break-word;  
+    }
+
+    .wrapper header.header .header-text p {
+        width:350px;
+        padding: 5px;
+        margin: 10px;
+        margin-top: 70px;
+        font-size: 1em; 
+        word-wrap: break-word;  
+    }
+
+    .wrapper header.header .header-text button {       
+        margin-bottom: 10px;
+        margin-left: 80px;
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .wrapper header.header .another-text h3 {       
+        font-size: 2em;
+        margin-top: 130px;
+        margin-left: 40px;
+
+    }
+
+    .wrapper header.header .another-text p {
+        font-size: 1em;
+        margin: 10px;
+        margin-top: 50px;
+    }
+
+
+    }
