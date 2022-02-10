@@ -1,6 +1,14 @@
-body {
+ body {
     background: #fbfbfb;
     margin: 0;
+    padding: 0;
+}
+iframe {
+    border: none;
+}
+
+.navbar-iframe{
+    width: 100%;
 }
 
 /* <!-- NAVBAR --> */
@@ -182,6 +190,8 @@ opacity: 0.6;
 .wrapper header.header {
     background-image: url("img/header-bg.jpg");
     background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: auto;
     overflow: hidden;
     padding-top: 20px;
