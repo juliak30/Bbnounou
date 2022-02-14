@@ -1,0 +1,85 @@
+@media (min-width: 375px) and (max-width: 812px) {
+   
+    /* HEADER */
+    .wrapper header.header .header-text h1 {
+        width:300px;
+        padding: 3px;
+        margin: 40px;
+        font-size: 2.5em;  
+        word-wrap: break-word;  
+    }
+
+    .wrapper header.header .header-text p {
+        width:350px;
+        padding: 5px;
+        margin: 10px;
+        margin-top: 70px;
+        font-size: 1em; 
+        word-wrap: break-word;  
+    }
+
+    .wrapper header.header .header-text button {       
+        margin-bottom: 10px;
+        margin-left: 80px;
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .wrapper header.header .header-text {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .wrapper header.header .another-text h3 {       
+        font-size: 2em;
+        margin-left: 40px;
+       margin-top: 80px;
+    }
+
+    .wrapper header.header .another-text p {
+        font-size: 1em;
+        margin: 10px;
+        margin-bottom: 100px;
+
+    }
+
+    .wrapper header.header img.shape-white{
+       display: none;
+      }
+
+
+.row-another-text{
+       position: relative;
+    }
+
+ /* HEADER */
+
+ /* CONCEPT */
+
+.concept {
+margin: 0%;
+}
+ 
+.concept .bebenounou {
+height: 850px;
+margin-top: 100px;
+    
+      }
+    
+ .concept > div {
+width: 100%;
+font-size: 15px;
+          }
+         
+.concept-image-1 {
+ display: none;
+          }
+
+.concept-image-2 {
+ display: none;
+    
+        }
+/* CONCEPT */
+
+}
