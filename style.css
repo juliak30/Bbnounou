@@ -12,6 +12,19 @@ iframe {
 
 /* HEADER */
 
+/* NAVBAR */
+
+iframe {
+  border: none;
+}
+
+.navbar-iframe {
+  width: 100%;
+}
+
+/* NAVBAR */
+
+
 header::after {
   content: "";
   clear: both;
@@ -592,3 +605,15 @@ header::after {
 
 /* CONTACT */
 
+/* FOOTER */
+
+iframe {
+  border: none;
+}
+
+.footer-iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* FOOTER */
