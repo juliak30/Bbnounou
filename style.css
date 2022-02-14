@@ -3,13 +3,14 @@ body {
   margin: 0;
   padding: 0;
 }
+
+
 iframe {
   border: none;
 }
 
-.navbar-iframe {
-  width: 100%;
-}
+
+/* HEADER */
 
 header::after {
   content: "";
@@ -48,6 +49,20 @@ header::after {
 .wrapper header.header .container {
   position: relative;
 }
+.wrapper header.header img.shape-white{
+  position: absolute;
+  width: 100%;
+  bottom: -75px;
+}
+
+
+.row-another-text{
+  z-index: 50; 
+   position: absolute; 
+  color: #000000;
+  bottom: -10px;
+}
+
 
 .wrapper header.header img.shepe1 {
   left: 200px;
@@ -130,6 +145,7 @@ header::after {
 
 .wrapper header.header .header-text {
   margin: 0 auto;
+  padding-bottom: 200px;
   padding-top: 130px;
   text-align: center;
   width: 770px;
@@ -213,10 +229,14 @@ header::after {
   margin-left: 50px;
 }
 
+
+/* HEADER */
+
+/* CONCEPT */
+
 .concept {
-  color: #121213;
   font-family: "Raleway", sans-serif;
-  margin-top: 100px;
+  margin-top: 150px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -233,10 +253,10 @@ header::after {
   padding: 20px 50px;
 }
 .concept .bebenounou {
-  background-color: #d02850;
+  background-color: #379c94;
 }
 .concept .missions {
-  background-color: #0c14c1;
+  background-color: #20635d;
 }
 .concept-image {
   background-size: cover;
@@ -244,12 +264,16 @@ header::after {
 }
 
 .concept-image-1 {
-  background-image: url(./img/header-bg.jpg);
+  background-image: url(./img/bg.jpg);
 }
 .concept-image-2 {
-  /* background-image: url(./img/footer-bg.jpg); */
-  background-image: url(./img/header-bg.jpg);
+  
+  background-image: url(./img/bg.jpg);
 }
+
+/* CONCEPT */
+
+/* OPINIONS */
 
 .opinions {
   font-family: "Raleway", sans-serif;
@@ -275,6 +299,10 @@ header::after {
     margin-bottom: 70px;
 }
 
+
+/* OPINIONS */
+
+/* DEVELOPMENT */
 .wrapper section.development {
   padding-bottom: 100px;
   padding-top: 100px;
@@ -284,7 +312,6 @@ header::after {
 .wrapper section.development .white {
   bottom: -22px;
   height: 225px;
-  /* width: ; */
   overflow: hidden;
 }
 
@@ -365,6 +392,8 @@ header::after {
   font-weight: 400;
   line-height: 30px;
 }
+
+/* DEVELOPMENT */
 
 /* CONTACT */
 
@@ -563,65 +592,3 @@ header::after {
 
 /* CONTACT */
 
-.wrapper footer.footer {
-  background-image: url("img/footer-bg.jpg");
-  background-size: 100% 100%;
-  height: 450px;
-  margin-top: 80px;
-  padding-top: 110px;
-}
-
-.wrapper footer.footer .footer-icon h2 {
-  color: #fff;
-  font-family: "Croissant One", cursive;
-  font-size: 30px;
-  font-weight: 400;
-  margin-bottom: 40px;
-  position: relative;
-}
-
-.wrapper footer.footer .footer-icon h2::before {
-  background: #455a64 none repeat scroll 0 0;
-  bottom: -17px;
-  content: "";
-  height: 2px;
-  left: 0;
-  position: absolute;
-  width: 310px;
-}
-
-.wrapper footer.footer .footer-icon h5 {
-  color: #4c797d;
-  font-family: "Raleway", sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  margin-top: 35px;
-}
-
-.wrapper footer.footer .footer-icon i {
-  color: #fff;
-  font-size: 25px;
-  padding: 0 44px 0 0;
-}
-
-.footer-text {
-  display: flex;
-  justify-content: space-around;
-}
-
-.footer-text-category h3 {
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  margin-left: 50px;
-  color: #fff;
-}
-
-.footer-text-category p a {
-  font-family: "Raleway", sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  color: #4c797d;
-  text-decoration: none;
-  margin-left: 50px;
-}
