@@ -9,16 +9,21 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body style="background-color: #CBC0EA;">
+    
+
+    <!-- FIRST PART -->
+
     <!-- NAVBAR -->
     <div class="nav">
         <img class="logo" src="img/logo.png" alt="" />
         <div class="main-nav" id="myNav">
-              <a href="#">Accueil</a>
+              <a href="index.html">Accueil</a>
               <a href="information.html">Qui sommes-nous ?</a>
               <a href="#">Nos services</a>
               <a href="test">Forums</a>
@@ -29,12 +34,48 @@
         </div>
     </div>
 
-    <!-- FIRST PART -->
-    <div class="row row-header-text">
+    <section class="head">
         <div class="title">
             <h1>C'est qui BébéNounou ?</h1>
             <p>Une équipe de passionné(e)s à votre service</p>
         </div>
-    </div>
+    </section>
+
+    <section class="avantages">
+      <div class="icons">
+        <img src="img/logo.png" alt="" width="150px"><br>
+        <h2>Partie 1</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Neque quos tempora sunt corporis officia animi nobis quas saepe 
+          non placeat fugit consequatur esse nihil ratione eaque, 
+          laboriosam quae architecto facere.</p>
+      </div>
+      <div class="icons">
+        <img src="img/logo.png" alt="" width="150px"><br>
+        <h2>Partie 1</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Neque quos tempora sunt corporis officia animi nobis quas saepe 
+          non placeat fugit consequatur esse nihil ratione eaque, 
+          laboriosam quae architecto facere.</p>
+        </div>
+      <div class="icons">
+        <img src="img/logo.png" alt="" width="150px"><br>
+        <h2>Partie 1</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Neque quos tempora sunt corporis officia animi nobis quas saepe 
+          non placeat fugit consequatur esse nihil ratione eaque, 
+          laboriosam quae architecto facere.</p>
+        </div>
+    </section>
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myNav");
+            if (x.className === "main-nav") {
+              x.className += " responsive";
+            } else {
+              x.className = "main-nav";
+            }
+          } 
+        </script>
 </body>
 </html>
