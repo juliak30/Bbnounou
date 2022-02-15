@@ -495,5 +495,37 @@ label{
   padding-bottom: 200px;
   padding-top: 130px;
   text-align: center;
-  width: 770px;
+}
+
+.avantages{
+  display: flex;
+  justify-content: space-between;
+}
+
+.avantages h2, .avantages p{
+  text-align: center;
+}
+
+.avantages img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.icons{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media only screen and (min-width: 375px) 
+  and (min-height: 812px) {
+    .avantages{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .icons{
+      margin-bottom: 50px;
+    }
 }
