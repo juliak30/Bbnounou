@@ -1,25 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
-    <meta charset="utf-8">
-  <title>Contactez-nous</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bébé Nounou</title>
+    <link href="https://fonts.googleapis.com/css?family=Croissant+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-
-  <meta name="viewport" content="width=device-width, initial-sale=1.0, shrink-to-fit=no">
-
- 
-  <link rel="stylesheet" type="text/css" href="form.css">
-  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
 
 <body style="background-color:#CBC0EA;">
-</body>
 
+<!-- NAVBAR -->
+<div class="nav">
+  <img class="logo" src="img/logo.png" alt="" />
+  <div class="main-nav" id="myNav">
+        <a href="#">Accueil</a>
+        <a href="information.html">Qui sommes-nous ?</a>
+        <a href="#">Nos services</a>
+        <a href="test">Forums</a>
+        <a href="form.html">Contactez-nous</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+  </div>
+</div>
 
-<img src="img/logo bebe nounou 2.png" alt="" width="300px" > 
+<!-- NAVBAR -->
 
-<div class="container">
+<div class="container-form">
   <strong><h1>Des questions ?</h1></strong>
 
     <h2>Contactez-nous!</h2>
@@ -39,7 +53,7 @@
     <label for="subject">Message</label>
     <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
 
-   <a href="merci.html">Envoyer</a>
+   <a class="bouton" href="merci.html">Envoyer</a>
     
   </form>
 </div>

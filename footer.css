@@ -1,13 +1,13 @@
 
 
-.footer {
+footer {
     background-image: url("img/footer-bg.jpg");
     background-size: 100% 100%;
     height: 450px;
     /* padding-top: 150px; */
   }
   
-.footer .footer-icon h2 {
+footer .footer-icon h2 {
     color: #fff;
     font-family: "Croissant One", cursive;
     font-size: 30px;
@@ -16,7 +16,7 @@
     position: relative;
   }
   
-.footer .footer-icon h2::before {
+footer .footer-icon h2::before {
     background: #455a64 none repeat scroll 0 0;
     bottom: -17px;
     content: "";
@@ -26,7 +26,7 @@
     width: 310px;
   }
   
-.footer .footer-icon h5 {
+footer .footer-icon h5 {
     color: #4c797d;
     font-family: "Raleway", sans-serif;
     font-size: 15px;
@@ -34,7 +34,7 @@
     margin-top: 35px;
   }
   
-.footer .footer-icon i {
+footer .footer-icon i {
     color: #fff;
     font-size: 25px;
     padding: 0 44px 0 0;
