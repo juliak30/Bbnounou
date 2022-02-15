@@ -15,11 +15,11 @@ body {
     justify-content: space-around;
     font-family: "Raleway", Times, serif;
   }
-  
+
   .logo {
     width: 150px;
   }
-  
+
   
   .main-nav  {
     display: flex;
@@ -43,7 +43,139 @@ body {
       display: none;
     }
   
-  @media only screen and (min-width: 375px) 
+ /* NAVBAR */
+ 
+ /* NAVBAR-BURGER */
+
+   #menuToggle
+{
+  display: none;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+
+
+
+#menuToggle input
+{
+  display: none;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; 
+  z-index: 2; 
+  
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span
+{
+  display: none;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -150px 0 0 -50px;
+  padding: 50px;
+  padding-top: 50px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+ 
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+/* NAVBAR-BURGER */
+
+  
+  
+  /* @media only screen and (min-width: 375px) 
   and (min-height: 812px) {
     
   .main-nav a:not(:first-child) {display: none;}
@@ -73,7 +205,7 @@ body {
     flex-wrap: wrap;
     justify-content: left;
   }
-}
+} */
 
 
 header::after {
@@ -93,7 +225,7 @@ header::after {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom right, #3f8394, #6d2d70);
+  background-image: linear-gradient(to bottom right, #242f31, #312431);
   opacity: 0.6;
 }
 .wrapper header.header {
@@ -495,6 +627,7 @@ label{
   padding-bottom: 200px;
   padding-top: 130px;
   text-align: center;
+<<<<<<< HEAD
 }
 
 .avantages{
@@ -529,3 +662,72 @@ label{
       margin-bottom: 50px;
     }
 }
+=======
+  width: 770px;
+}
+
+/* FOOTER */
+
+footer {
+  background-image: url("img/footer-bg.jpg");
+  background-size: 100% 100%;
+  height: 450px;
+}
+
+footer .footer-icon h2 {
+  color: #fff;
+  font-family: "Croissant One", cursive;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+footer .footer-icon h2::before {
+  background: #455a64 none repeat scroll 0 0;
+  bottom: -17px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: relative;
+  width: 310px;
+}
+
+footer .footer-icon h5 {
+  color: #4c797d;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+footer .footer-icon i {
+  color: #fff;
+  font-size: 25px;
+  padding: 0 44px 0 0;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-text-category h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 50px;
+  color: #fff;
+}
+
+.footer-text-category p a {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #4c797d;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+/* FOOTER */
+>>>>>>> b7130df71daab45540547750f4cdb4430fb72eae
