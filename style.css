@@ -627,43 +627,31 @@ label{
   padding-bottom: 200px;
   padding-top: 130px;
   text-align: center;
-<<<<<<< HEAD
 }
 
 .avantages{
   display: flex;
-  justify-content: space-between;
-}
-
-.avantages h2, .avantages p{
-  text-align: center;
-}
-
-.avantages img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  justify-content: space-around;
 }
 
 .icons{
+  text-align: center;
+
   margin-left: 50px;
   margin-right: 50px;
 }
 
 @media only screen and (min-width: 375px) 
   and (min-height: 812px) {
-    .avantages{
-      display: flex;
-      flex-direction: column;
-    }
+    
+  .avantages{
+    display: flex;
+    flex-direction: column;
+  }
 
-    .icons{
-      margin-bottom: 50px;
-    }
-}
-=======
-  width: 770px;
+  .icons{
+    margin-bottom: 50px;
+  }
 }
 
 /* FOOTER */
@@ -730,4 +718,3 @@ footer .footer-icon i {
 }
 
 /* FOOTER */
->>>>>>> b7130df71daab45540547750f4cdb4430fb72eae
