@@ -625,7 +625,7 @@ label{
 
 .avantages{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .icons{
@@ -683,6 +683,11 @@ label{
 
   .icons{
     margin-bottom: 50px;
+  }
+
+  .numbers, .numbersrow2{
+    display: flex;
+    flex-direction: column;
   }
 }
 
