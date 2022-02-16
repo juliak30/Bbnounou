@@ -310,7 +310,7 @@ header::after {
 }
 
 /* BOUTONS */
-.wrapper header.header .header-text button {
+button {
   background: transparent none repeat scroll 0 0;
   border: 2px solid #fff;
   border-radius: 60px / 61px;
@@ -318,16 +318,19 @@ header::after {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  margin-bottom: 170px;
   margin-right: 27px;
   padding: 14px 50px;
 }
 
-.wrapper header.header .header-text button:hover {
+button:hover {
   background: #fff;
   color: #11bdd7;
 }
 
+.wrapper header.header .header-text button{
+  
+  margin-bottom: 170px;
+}
 /* TEXTE EN DESSOUS */
 .wrapper header.header .another-text h3 {
   color: #455a64;
@@ -536,7 +539,7 @@ input[type=text], textarea, input[type=email] {
   font-family: "Raleway", sans-serif;
   width: 100%;
   padding: 12px;
-  border: 1px solid #F07E48;
+  border: 1px solid #afa9a6;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -552,27 +555,10 @@ label{
   margin-left: 0px;
   width: 100%;
 }
-
-.bouton {
-  font-family: "Raleway", sans-serif;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  background-color: #F07E48 ;
-  text-decoration: none;
-}
-
-.bouton:hover {
-  background-color: #F07E48 ;
-}
-
 .container-form {
  
   box-sizing : border-box;
   border-radius:5px;
-  background-color:#f2f2f2;
   padding:20px;
   width: 100%;
 
@@ -589,9 +575,84 @@ label{
 .title {
   margin: 0 auto;
   padding-bottom: 200px;
-  padding-top: 130px;
+  padding-top: 230px;
   text-align: center;
-  width: 770px;
+
+  background-image: url(img/bg.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.vide{
+  margin: 100px;
+}
+
+.avantages{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons{
+  text-align: center;
+
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.numbers, .numbersrow2{
+  display: flex;
+  justify-content: space-evenly;
+
+  font-size: 40px;
+  text-align: center;
+}
+
+.numbers h3, .numbers p{
+  margin: 0;
+}
+
+.numbersrow2 h3{
+  margin-bottom: 0;
+}
+
+.numbersrow2 p{
+  margin-top: 0;
+}
+
+.stats h2{
+  margin-top: 150px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.contact{
+  text-align: center;
+}
+
+@media only screen and (min-width: 375px) 
+  and (min-height: 812px) {
+
+  .stats h2{
+    margin-top: 50px;
+  }
+
+  .title{
+    padding: 50px;
+  }
+    
+  .avantages{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icons{
+    margin-bottom: 50px;
+  }
+
+  .numbers, .numbersrow2{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* FOOTER */
