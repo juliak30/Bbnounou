@@ -74,39 +74,6 @@
 
  }
 
- /* @media only screen and (min-width: 375px) 
-  and (min-height: 812px) {
-    
-  .main-nav a:not(:first-child) {display: none;}
-  .main-nav a.icon {
-    float: right;
-    display: block;
-  }
-
-  .main-nav.responsive {position: relative;}
-  .main-nav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .main-nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-  .logo{
-    display: none;
-  }
-
-  .main-nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-  }
-} */
-
-
 
  /* CONCEPT */
 
